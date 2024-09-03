@@ -4,29 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-<link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/global.css">
 <header>
     <nav>
-        <header class="site-header">
-            <nav class="main-nav">
-        </header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./pages/contato.html">Contato</a></li>
-            <li><a href="./pages/sobre.html">Sobre</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="site-header">
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./pages/sobre.html">Sobre</a></li>
+                <li><a href="./pages/contato.html">contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main class="main-content">
+        <article class="article">
+            <header class="article-header">
+                <h2 class="article-title">Bem-vindo ao Meu site</h2>
+                <p class="section-text">texto aleatorio na aula de marcação web</p>
+            </header>
+            <section class="article-content">
+                <h3 class="section-title">Introdução</h3>
+                <p class="section-text">Esse conteudo de introdução do artigo</p>
+                <figure class="image-figure">
+                    <img src="./media/totoro.jpg" alt="totoro" class ="article-image"> 
+                <figcaption class="image-caption">Totoro</figcaption>
+                </figure>
+                <audio controls class="audio-player">
+                    <source src="media/audio.mp3" type="audio/mp3">Seu navegador não suporta a tag audio.
+                </audio>
+                </section>
+                <footer class="article-footer">
+                    <p class="section-text">testando rodapé do conteudo principal</p>
+                </footer>
+        </article>
+        <aside class="sidebar">
+            <h2 class="sidebar-title">Informações</h2>
+            <p class="sidebar-text">Este é um conteúdo complementar</p>
+        </aside>
 
-
-
-
-
-
-
-</head>
-<body>
-    
+        <footer class="site-footer">
+            <address class="contact-info">
+                <p class="author-name">Autor: Flavia Mendes</p>
+                <p class="author-email">Email: <a href="mailto:flavia.r.mendes@aluno.senai" class="email-link">flavia.r.mendes@aluno.senai</a></p>
+            </address>
+            <p class="footer-copy">&copy; 2024 Meu site. Todos os direitos reservados.</p>
+        </footer>
+    </main>
 </body>
 </html>
